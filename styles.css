@@ -271,14 +271,15 @@ section#home {
   justify-content: center;
 }
 
-/* .portfolio-title-big {
+.portfolio-title-big {
   font-size: 2rem;
   color: var(--red);
   z-index: 6;
   overflow: hidden;
   position: absolute;
   opacity: 5%;
-} */
+  display: none;
+}
 
 .portfolio-title-small {
   color: var(--white);
@@ -404,14 +405,15 @@ section#home {
   justify-content: center;
 }
 
-/* .contact-title-big {
+.contact-title-big {
   font-size: 3.2rem;
   color: var(--red);
   z-index: 6;
   overflow: hidden;
   position: absolute;
   opacity: 5%;
-} */
+  display: none;
+}
 
 .contact-title-small {
   z-index: 7;
