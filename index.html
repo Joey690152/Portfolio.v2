@@ -9,22 +9,23 @@
   <title>Web Dev | Joey</title>
 </head>
 <body>
-
+  
+  <section id="home">
   <nav class="navbar">
     <div class="logo">
-      <a href="index.html">JP</a>
+      <a href="#home">JP</a>
     </div>
 
     <div class="nav-links">
       <ul>
         <li>
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">My work</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -34,16 +35,21 @@
     <div class="content">
       <p class="first-hero-text">Hi, i am Joey</p>
       <h1>Self-taught Front End Developer <span class="underline">specialising</span> in <span class="bold-italic">creative</span> web exeriences.</h1>
-      <div class="contact">
-        <i class="fas fa-paper-plane"></i><p>Contact Me</p> 
+    </div>
+    <div class="button-container">
+      <div class="button">
+        <a href="#contact"><i class="fas fa-paper-plane"></i>Contact Me!</a>
       </div>
     </div>
   </div>
+  </section>
 
-  <section class="about">
+  
+
+  <section class="about" id="about">
     <div class="about-titles">
       <div class="about-title-big">
-        <h1><span>A</span>bout</h1>
+        <h1>About</h1>
       </div>
       <div class="about-title-small">
         <h3>About Me</h3>
@@ -100,22 +106,61 @@
       </div>
     </div>
 
-    <div class="social-section">
-      <div class="social-links github">
-        <i class="fab fa-github"></i>
-      </div>
-      <div class="social-links linkedin">
-        <i class="fab fa-linkedin-in"></i>
-      </div>
-      <div class="social-links instagram">
-        <i class="fab fa-instagram"></i>
-      </div>
-    </div>
-
+    
 
   </section>
 
+  <section class="portfolio" id="portfolio">
+    <div class="portfolio-titles">
+      <div class="portfolio-title-big">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="portfolio-title-small">
+        <h3>Portfolio</h3>
+      </div>
+    </div>
 
+    <h2 class="loading">In Progress
+      <span>.</span>
+      <span>.</span>
+      <span>.</span>
+    </h2>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="contact-titles">
+      <div class="contact-title-big">
+        <h1>Contact</h1>
+      </div>
+      <div class="contact-title-small">
+        <h3>Contact</h3>
+      </div>
+    </div>
+
+    <div class="contact-content">
+      <p>look who's here! 😉 🎉</p>
+      <h2>If you are looking to get in touch you can <span>email</span> or feel free to connect on the social media sites below. Thank you for spending time veiwing my Website.</h2>
+      <h2>Email: <span class="email">Joey.phillipson1@hotmail.com</span></h2>
+    </div>
+
+    <div class="social-section">
+      <div class="social-links github">
+        <a href="https://github.com/Joey690152" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="social-links linkedin">
+        <a href="https://www.linkedin.com/in/joseph-phillipson-8225871b6/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <div class="social-links instagram">
+        <a href="https://www.instagram.com/web_dev_joey/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy Joey Phillipson</p>
+    </div>
+  </footer>
 
 
   <script src="app.js"></script>
