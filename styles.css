@@ -272,7 +272,7 @@ section#home {
 }
 
 .portfolio-title-big {
-  font-size: 4rem;
+  font-size: 3.2rem;
   color: var(--red);
   z-index: 6;
   overflow: hidden;
@@ -405,7 +405,7 @@ section#home {
 }
 
 .contact-title-big {
-  font-size: 4rem;
+  font-size: 3.2rem;
   color: var(--red);
   z-index: 6;
   overflow: hidden;
