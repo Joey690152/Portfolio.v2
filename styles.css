@@ -204,7 +204,7 @@ section#home {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex: 0 1 auto;
+  flex: 1 1 25%;
 }
 
 .card-section .card i {
